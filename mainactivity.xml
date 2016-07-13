@@ -1,0 +1,73 @@
+ <LinearLayout
+        android:id="@+id/two"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.25"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <RadioGroup
+            android:id="@+id/myRadioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/compliment"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@drawable/yourbuttonbackground"
+                android:button="@android:color/transparent"
+                android:text="Compliment"
+                android:textSize="20dp"
+                android:checked="true"
+                android:paddingLeft="10dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/suggestion"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Suggestion"
+                 android:background="@drawable/yourbuttonbackground"
+                android:button="@android:color/transparent"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/enquiry"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Enquiry"
+                android:background="@drawable/yourbuttonbackground"
+                android:button="@android:color/transparent"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/complaint"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Complaint"
+              android:background="@drawable/yourbuttonbackground"
+                android:button="@android:color/transparent"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/comment"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Comment"
+                android:background="@drawable/yourbuttonbackground"
+                android:button="@android:color/transparent"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:textStyle="bold" />
+        </RadioGroup>
+    </LinearLayout>
